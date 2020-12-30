@@ -1,4 +1,4 @@
-# Version 1.0.1
+# Version 1.0.2
 
 FROM ubuntu:20.04
 MAINTAINER Jérôme KLAM, "jeromeklam@free.fr"
