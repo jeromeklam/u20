@@ -2,15 +2,15 @@
 
 # utilisateur
 # Si besoin à remplacer le nom de l'utilisateur docker final
-DOCKER_USER=local
-DOCKER_USER=password
+DOCKER_USER=jeromeklam
+DOCKER_PASSWORD=password
 DOCKER_REGISTRY=registry
 
 # Chemin courant = real_path
 ROOT_DIR=$(dirname dir)
 
 # Nom du container
-NAME=ubuntu20
+NAME=u20
 
 # Id, ... de docker
 RUNNING=$(docker ps | grep ${NAME} | cut -f 1 -d ' ')
